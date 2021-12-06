@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+/* font-family: 'Montserrat', sans-serif; */
+
+body{
+    /* margin: 0 auto;
+    display: flex;
+    width: 100%;
+    height: 100vh; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/white-marble-texture-background-high-resolution_38648-77.jpg?size=626&ext=jpg');
+    background-size: cover;
+}
+
+nav {
+    width: 75%;
+    margin: auto;
+    padding-top: 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    font-family: "Montserrat", sans-serif;
+    
+  }
+ 
+
+  li {
+    color: rgb(63, 63, 63);
+    font-size: 1.2rem;
+    transition: all 0.15s ease-in-out;
+  }
+  
+  li:hover {
+    color: black;
+    padding: 5px 13px;
+    border-radius: 2vh;
+    background-color: rgba(36, 36, 36, 0.404);
+    transform: scale(1.05);
+  }
+
+.wrapper{
+    margin: auto;
+    width: 50%;
+    /*fully fits verticaly*/
+    height: 90vh; 
+    
+    
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#input-name, #input-text{
+    display: block;
+    margin:  0 auto;
+    width: 40%;
+    border-style: solid;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.514);
+    font-size: 1.05rem;
+}
+
+#btn-submit {
+    display: block;
+    margin:  0 auto;
+}
+
+button {
+    padding: 1vh 2vh;
+    
+    border-style: none;
+    background-color: rgba(77, 77, 77, 0.295);
+    border-radius: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    transition: all 0.4s;
+    
+}
+
+button:hover {
+    transform: scale(1.08);
+    background-color: black;
+    color: white;
+}
+
+#all-comments{
+    margin-top: 40px;
+}
+#comment {
+    border-style: solid;
+    border-color: rgba(90, 90, 90, 0.329);
+    border-radius: 20px;
+    padding: 0 20px;
+    margin: 15px;
+}
+
+#comment-name, #name {
+   
+    margin: 10px;
+}
+
+/* #comment-name{
+    /* margin-left: 20px; */
+
+
+#name img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/*Desktops and laptops*/
+@media (min-width:1200px){
+    #input-name, #input-text{
+        width: 70%;
+        padding: 5px;
+        text-align: center;
+
+    }
+    
+    
+}
+
+@media (min-width:601px) and (max-width:1200px) {
+    .wrapper {
+        width: 65%;
+    }
+    
+    #input-name, #input-text{
+        
+        width: 70%;
+        padding: 2vh 3vh;
+
+    }
+}
+
+@media (max-width:600px) {
+    .wrapper {
+        width: 90%;
+    }
+    
+    #input-name, #input-text{
+        
+        width: 60%;
+        padding: 2vh 3vh;
+
+    }
+}
