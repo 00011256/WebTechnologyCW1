@@ -8,7 +8,7 @@ This website is an informative website of Tesla Vehicles. t contains prices, spe
 Current website is fully responsive and adaptive and can be opened on Desktop, Table and Mobile Devices.
 It contains landing page, model selection page, model configuration page, gallery and comment section.
 
-The link for a website is www.tesla11256.netlify.app (hosted on Netlify).
+The link for a website is tesla11256.netlify.app (hosted on Netlify).
 Link for a github repository: https://github.com/00011256/WebTechnologyCW1 .
 
 References:
