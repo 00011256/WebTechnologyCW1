@@ -327,6 +327,10 @@ footer a {
   .tesla--model {
     display: block;
   }
+  
+  .logo-text {
+    color: white;
+  }
 
   .car--image {
     min-width: 100px;
